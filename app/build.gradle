@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.zajel.exact'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.zajel.exact'
+        minSdk 23
+        targetSdk 35
+        versionCode 12
+        versionName '12.0-owner-once-accounts-notifications'
+    }
+}
